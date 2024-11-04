@@ -5,7 +5,7 @@ Dump a files hex data
 to run, compile the project into binary files for your system or download precompiled binaries [here](https://github.com/flynn-28/hex-dump/releases/tag/release)
 
 ## Usage
-Usage: ./dump <filename>
+Usage: ./hex-dump <filename> or ./hex-dump.exe <filename>
 
 ## Build
 
@@ -22,5 +22,5 @@ Usage: ./dump <filename>
 1. install g++ compiler: `sudo apt install g++`
 2. clone this repository: `git clone https://github.com/flynn-28/hex-dump.git`
 3. enter the directory: `cd hex-dump`
-4. run build command: `g++ -std=c++11 main.cpp -o hexdump`
-5. run the program with: `./hexdump <filename>`
+4. run build command: `g++ -std=c++11 main.cpp -o hex-dump`
+5. run the program with: `./hex-dump <filename>`
